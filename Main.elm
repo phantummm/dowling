@@ -29,6 +29,66 @@ init =
     ( "hello, world", Cmd.none )
 
 
+type alias Word =
+    { inEnglish : String
+    , function : Function
+    , declined : List String
+    }
+
+
+type Function
+    = Noun
+    | Adjective
+    | Verb
+
+
+type Case
+    = Nominative
+    | Genitive
+    | Dative
+    | Accusative
+    | Ablative
+
+
+type Number
+    = Single
+    | Plural
+
+
+type Gender
+    = Masculine
+    | Feminine
+    | Neuter
+
+
+type Declension
+    = First
+    | Second
+    | Third
+    | ThirdIStems
+    | Fourth
+    | Fifth
+
+
+type Tense
+    = Present
+    | Imperfect
+    | Future
+    | Perfect
+    | Pluperfect
+    | FuturePerfect
+
+
+type Mood
+    = Indicative
+    | Subjunctive
+
+
+type Voice
+    = Active
+    | Passive
+
+
 
 -- UPDATE
 
