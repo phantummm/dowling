@@ -8,19 +8,23 @@ type alias Word =
 
 
 type alias CaseList =
-    List WordCase
+    List NounCase
 
 
 type alias ConjugationList =
-    List WordConjugation
+    List VerbConjugation
 
 
-type alias WordCase =
+type alias NounCase =
     ( Case, String )
 
 
-type alias WordConjugation =
-    ( Conjugation, String )
+type alias VerbConjugation =
+    ( VerbPerson, String )
+
+
+type alias VerbPerson =
+    ( Person, Number )
 
 
 type Grammar
@@ -56,11 +60,10 @@ type Declension
     | FifthDeclension
 
 
-type Conjugation
-    = FirstConjugation
-    | SecondConjugation
-    | ThirdConjugation
-    | FourthConjugation
+type Person
+    = FirstPerson
+    | SecondPerson
+    | ThirdPerson
 
 
 type Tense
@@ -75,6 +78,7 @@ type Tense
 type Mood
     = Indicative
     | Subjunctive
+    | Imperative
 
 
 type Voice
@@ -771,4 +775,364 @@ allWords =
         )
 
     -- VERBS
+    , Word "praise"
+        (Verb Indicative
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "laudō" )
+            , ( ( SecondPerson, Singular ), "laudas" )
+            , ( ( ThirdPerson, Singular ), "laudat" )
+            , ( ( FirstPerson, Plural ), "laudamus" )
+            , ( ( SecondPerson, Plural ), "laudatis" )
+            , ( ( ThirdPerson, Plural ), "laudant" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "moneō" )
+            , ( ( SecondPerson, Singular ), "mones" )
+            , ( ( ThirdPerson, Singular ), "monet" )
+            , ( ( FirstPerson, Plural ), "monemus" )
+            , ( ( SecondPerson, Plural ), "monetis" )
+            , ( ( ThirdPerson, Plural ), "monent" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "ducō" )
+            , ( ( SecondPerson, Singular ), "ducis" )
+            , ( ( ThirdPerson, Singular ), "ducit" )
+            , ( ( FirstPerson, Plural ), "dúcimus" )
+            , ( ( SecondPerson, Plural ), "dúcitis" )
+            , ( ( ThirdPerson, Plural ), "ducunt" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "audiō" )
+            , ( ( SecondPerson, Singular ), "audīs" )
+            , ( ( ThirdPerson, Singular ), "audit" )
+            , ( ( FirstPerson, Plural ), "audīmus" )
+            , ( ( SecondPerson, Plural ), "audītis" )
+            , ( ( ThirdPerson, Plural ), "audiunt" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "capiō" )
+            , ( ( SecondPerson, Singular ), "capīs" )
+            , ( ( ThirdPerson, Singular ), "capit" )
+            , ( ( FirstPerson, Plural ), "capimus" )
+            , ( ( SecondPerson, Plural ), "capitis" )
+            , ( ( ThirdPerson, Plural ), "capiunt" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "laudabam" )
+            , ( ( SecondPerson, Singular ), "laudabas" )
+            , ( ( ThirdPerson, Singular ), "laudabat" )
+            , ( ( FirstPerson, Plural ), "laudabamus" )
+            , ( ( SecondPerson, Plural ), "laudabatis" )
+            , ( ( ThirdPerson, Plural ), "laudabant" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "monebam" )
+            , ( ( SecondPerson, Singular ), "monebas" )
+            , ( ( ThirdPerson, Singular ), "monebat" )
+            , ( ( FirstPerson, Plural ), "monebamus" )
+            , ( ( SecondPerson, Plural ), "monebatis" )
+            , ( ( ThirdPerson, Plural ), "monebant" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "ducebam" )
+            , ( ( SecondPerson, Singular ), "ducebas" )
+            , ( ( ThirdPerson, Singular ), "ducebat" )
+            , ( ( FirstPerson, Plural ), "ducebamus" )
+            , ( ( SecondPerson, Plural ), "ducebatis" )
+            , ( ( ThirdPerson, Plural ), "ducebant" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "audiebam" )
+            , ( ( SecondPerson, Singular ), "audiebas" )
+            , ( ( ThirdPerson, Singular ), "audiebat" )
+            , ( ( FirstPerson, Plural ), "audiebamus" )
+            , ( ( SecondPerson, Plural ), "audiebatis" )
+            , ( ( ThirdPerson, Plural ), "audiebant" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "capiebam" )
+            , ( ( SecondPerson, Singular ), "capiebas" )
+            , ( ( ThirdPerson, Singular ), "capiebat" )
+            , ( ( FirstPerson, Plural ), "capiebamus" )
+            , ( ( SecondPerson, Plural ), "capiebatis" )
+            , ( ( ThirdPerson, Plural ), "capiebant" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Active
+            Future
+            [ ( ( FirstPerson, Singular ), "laudabo" )
+            , ( ( SecondPerson, Singular ), "laudabis" )
+            , ( ( ThirdPerson, Singular ), "laudabit" )
+            , ( ( FirstPerson, Plural ), "laudabimus" )
+            , ( ( SecondPerson, Plural ), "laudabitis" )
+            , ( ( ThirdPerson, Plural ), "laudabunt" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Active
+            Future
+            [ ( ( FirstPerson, Singular ), "monebo" )
+            , ( ( SecondPerson, Singular ), "monebis" )
+            , ( ( ThirdPerson, Singular ), "monebit" )
+            , ( ( FirstPerson, Plural ), "monebimus" )
+            , ( ( SecondPerson, Plural ), "moneybitis" )
+            , ( ( ThirdPerson, Plural ), "monebunt" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Active
+            Future
+            [ ( ( FirstPerson, Singular ), "ducam" )
+            , ( ( SecondPerson, Singular ), "duces" )
+            , ( ( ThirdPerson, Singular ), "ducet" )
+            , ( ( FirstPerson, Plural ), "ducemus" )
+            , ( ( SecondPerson, Plural ), "ducetis" )
+            , ( ( ThirdPerson, Plural ), "ducent" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Active
+            Future
+            [ ( ( FirstPerson, Singular ), "audiam" )
+            , ( ( SecondPerson, Singular ), "audies" )
+            , ( ( ThirdPerson, Singular ), "audiet" )
+            , ( ( FirstPerson, Plural ), "audiemus" )
+            , ( ( SecondPerson, Plural ), "audietis" )
+            , ( ( ThirdPerson, Plural ), "audient" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Active
+            Future
+            [ ( ( FirstPerson, Singular ), "capiam" )
+            , ( ( SecondPerson, Singular ), "capies" )
+            , ( ( ThirdPerson, Singular ), "capiet" )
+            , ( ( FirstPerson, Plural ), "capiemus" )
+            , ( ( SecondPerson, Plural ), "capietis" )
+            , ( ( ThirdPerson, Plural ), "capient" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Active
+            Perfect
+            [ ( ( FirstPerson, Singular ), "laudavi" )
+            , ( ( SecondPerson, Singular ), "laudavisti" )
+            , ( ( ThirdPerson, Singular ), "laudavit" )
+            , ( ( FirstPerson, Plural ), "laudavimus" )
+            , ( ( SecondPerson, Plural ), "laudavistis" )
+            , ( ( ThirdPerson, Plural ), "laudaverunt" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Active
+            Perfect
+            [ ( ( FirstPerson, Singular ), "monui" )
+            , ( ( SecondPerson, Singular ), "monuisti" )
+            , ( ( ThirdPerson, Singular ), "monuit" )
+            , ( ( FirstPerson, Plural ), "monuimus" )
+            , ( ( SecondPerson, Plural ), "monuistis" )
+            , ( ( ThirdPerson, Plural ), "monuerunt" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Active
+            Perfect
+            [ ( ( FirstPerson, Singular ), "duxi" )
+            , ( ( SecondPerson, Singular ), "duxisti" )
+            , ( ( ThirdPerson, Singular ), "duxit" )
+            , ( ( FirstPerson, Plural ), "duximus" )
+            , ( ( SecondPerson, Plural ), "duxistis" )
+            , ( ( ThirdPerson, Plural ), "duxerunt" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Active
+            Perfect
+            [ ( ( FirstPerson, Singular ), "audivi" )
+            , ( ( SecondPerson, Singular ), "audivisti" )
+            , ( ( ThirdPerson, Singular ), "audivit" )
+            , ( ( FirstPerson, Plural ), "audivimus" )
+            , ( ( SecondPerson, Plural ), "audivistis" )
+            , ( ( ThirdPerson, Plural ), "audiverunt" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Active
+            Perfect
+            [ ( ( FirstPerson, Singular ), "cepi" )
+            , ( ( SecondPerson, Singular ), "cepisti" )
+            , ( ( ThirdPerson, Singular ), "cepit" )
+            , ( ( FirstPerson, Plural ), "cepimus" )
+            , ( ( SecondPerson, Plural ), "capistis" )
+            , ( ( ThirdPerson, Plural ), "ceperunt" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "laudaveram" )
+            , ( ( SecondPerson, Singular ), "laudaveras" )
+            , ( ( ThirdPerson, Singular ), "laudaverat" )
+            , ( ( FirstPerson, Plural ), "laudaveramus" )
+            , ( ( SecondPerson, Plural ), "laudaveratis" )
+            , ( ( ThirdPerson, Plural ), "laudaverant" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "monueram" )
+            , ( ( SecondPerson, Singular ), "monueras" )
+            , ( ( ThirdPerson, Singular ), "monuerat" )
+            , ( ( FirstPerson, Plural ), "monueramus" )
+            , ( ( SecondPerson, Plural ), "monueratis" )
+            , ( ( ThirdPerson, Plural ), "monuerant" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "duxeram" )
+            , ( ( SecondPerson, Singular ), "duxeras" )
+            , ( ( ThirdPerson, Singular ), "duxerat" )
+            , ( ( FirstPerson, Plural ), "duxeramus" )
+            , ( ( SecondPerson, Plural ), "duxeratis" )
+            , ( ( ThirdPerson, Plural ), "duxerant" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "audiveram" )
+            , ( ( SecondPerson, Singular ), "audiveras" )
+            , ( ( ThirdPerson, Singular ), "audiverat" )
+            , ( ( FirstPerson, Plural ), "audiveramus" )
+            , ( ( SecondPerson, Plural ), "audiveratis" )
+            , ( ( ThirdPerson, Plural ), "audiverant" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "ceperam" )
+            , ( ( SecondPerson, Singular ), "ceperas" )
+            , ( ( ThirdPerson, Singular ), "ceperat" )
+            , ( ( FirstPerson, Plural ), "ceperamus" )
+            , ( ( SecondPerson, Plural ), "ceperatis" )
+            , ( ( ThirdPerson, Plural ), "ceperant" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Active
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "laudavero" )
+            , ( ( SecondPerson, Singular ), "laudaveris" )
+            , ( ( ThirdPerson, Singular ), "laudaverit" )
+            , ( ( FirstPerson, Plural ), "laudaverimus" )
+            , ( ( SecondPerson, Plural ), "laudaveritis" )
+            , ( ( ThirdPerson, Plural ), "laudaverint" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Active
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "monuero" )
+            , ( ( SecondPerson, Singular ), "monueris" )
+            , ( ( ThirdPerson, Singular ), "monuerit" )
+            , ( ( FirstPerson, Plural ), "monuerimus" )
+            , ( ( SecondPerson, Plural ), "monueritis" )
+            , ( ( ThirdPerson, Plural ), "monuerint" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Active
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "duxero" )
+            , ( ( SecondPerson, Singular ), "duxeris" )
+            , ( ( ThirdPerson, Singular ), "duxerit" )
+            , ( ( FirstPerson, Plural ), "duxerimus" )
+            , ( ( SecondPerson, Plural ), "duxeritis" )
+            , ( ( ThirdPerson, Plural ), "duxerint" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Active
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "audivero" )
+            , ( ( SecondPerson, Singular ), "audiveris" )
+            , ( ( ThirdPerson, Singular ), "audiverit" )
+            , ( ( FirstPerson, Plural ), "audiverimus" )
+            , ( ( SecondPerson, Plural ), "audiveritis" )
+            , ( ( ThirdPerson, Plural ), "audiverint" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Active
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "cepero" )
+            , ( ( SecondPerson, Singular ), "ceperis" )
+            , ( ( ThirdPerson, Singular ), "ceperit" )
+            , ( ( FirstPerson, Plural ), "ceperimus" )
+            , ( ( SecondPerson, Plural ), "ceperitis" )
+            , ( ( ThirdPerson, Plural ), "ceperint" )
+            ]
+        )
     ]
