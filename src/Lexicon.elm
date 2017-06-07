@@ -279,4 +279,292 @@ allWords =
         , ( Accusative, "dies" )
         , ( Ablative, "diebus" )
         ]
+    , Word "large"
+        (Adjective Second Singular Masculine)
+        [ ( Nominative, "magnus" )
+        , ( Genitive, "magni" )
+        , ( Dative, "magno" )
+        , ( Accusative, "magnum" )
+        , ( Ablative, "magno" )
+        ]
+    , Word "large"
+        (Adjective Second Plural Masculine)
+        [ ( Nominative, "magni" )
+        , ( Genitive, "magnorum" )
+        , ( Dative, "magnis" )
+        , ( Accusative, "magnos" )
+        , ( Ablative, "magnis" )
+        ]
+    , Word "large"
+        (Adjective First Singular Feminine)
+        [ ( Nominative, "magna" )
+        , ( Genitive, "magnae" )
+        , ( Dative, "magnae" )
+        , ( Accusative, "magnam" )
+        , ( Ablative, "magna" )
+        ]
+    , Word "large"
+        (Adjective First Plural Feminine)
+        [ ( Nominative, "magnae" )
+        , ( Genitive, "magnarum" )
+        , ( Dative, "magnis" )
+        , ( Accusative, "magnas" )
+        , ( Ablative, "magnis" )
+        ]
+    , Word "large"
+        (Adjective Second Singular Neuter)
+        [ ( Nominative, "magnum" )
+        , ( Genitive, "magni" )
+        , ( Dative, "magno" )
+        , ( Accusative, "magnum" )
+        , ( Ablative, "magno" )
+        ]
+    , Word "large"
+        (Adjective Second Plural Neuter)
+        [ ( Nominative, "magna" )
+        , ( Genitive, "magnorum" )
+        , ( Dative, "magnis" )
+        , ( Accusative, "magna" )
+        , ( Ablative, "magnis" )
+        ]
+    , Word "free"
+        (Adjective Second Singular Masculine)
+        [ ( Nominative, "liber" )
+        , ( Genitive, "liberi" )
+        , ( Dative, "libero" )
+        , ( Accusative, "liberum" )
+        , ( Ablative, "libero" )
+        ]
+    , Word "free"
+        (Adjective First Singular Feminine)
+        [ ( Nominative, "libera" )
+        , ( Genitive, "liberae" )
+        , ( Dative, "liberae" )
+        , ( Accusative, "liberam" )
+        , ( Ablative, "libera" )
+        ]
+    , Word "free"
+        (Adjective Second Singular Neuter)
+        [ ( Nominative, "liberum" )
+        , ( Genitive, "liberi" )
+        , ( Dative, "libero" )
+        , ( Accusative, "liberum" )
+        , ( Ablative, "libero" )
+        ]
+    , Word "beautiful"
+        (Adjective Second Singular Masculine)
+        [ ( Nominative, "pulcher" )
+        , ( Genitive, "pulchri" )
+        , ( Dative, "pulchro" )
+        , ( Accusative, "pulchrum" )
+        , ( Ablative, "pulchro" )
+        ]
+    , Word "beautiful"
+        (Adjective First Singular Feminine)
+        [ ( Nominative, "pulchra" )
+        , ( Genitive, "pulchrae" )
+        , ( Dative, "pulchrae" )
+        , ( Accusative, "pulchram" )
+        , ( Ablative, "pulchra" )
+        ]
+    , Word "beautiful"
+        (Adjective Second Singular Neuter)
+        [ ( Nominative, "pulchrum" )
+        , ( Genitive, "pulchri" )
+        , ( Dative, "pulchro" )
+        , ( Accusative, "pulchrum" )
+        , ( Ablative, "pulchro" )
+        ]
+    , Word "brave"
+        (Adjective Third Singular Masculine)
+        [ ( Nominative, "fortis" )
+        , ( Genitive, "fortis" )
+        , ( Dative, "forti" )
+        , ( Accusative, "fortem" )
+        , ( Ablative, "forti" )
+        ]
+    , Word "brave"
+        (Adjective Third Plural Masculine)
+        [ ( Nominative, "fortes" )
+        , ( Genitive, "fortium" )
+        , ( Dative, "fortibus" )
+        , ( Accusative, "fortes" )
+        , ( Ablative, "fortibus" )
+        ]
+    , Word "brave"
+        (Adjective Third Singular Feminine)
+        [ ( Nominative, "fortis" )
+        , ( Genitive, "fortis" )
+        , ( Dative, "forti" )
+        , ( Accusative, "fortem" )
+        , ( Ablative, "forti" )
+        ]
+    , Word "brave"
+        (Adjective Third Plural Feminine)
+        [ ( Nominative, "fortes" )
+        , ( Genitive, "fortium" )
+        , ( Dative, "fortibus" )
+        , ( Accusative, "fortes" )
+        , ( Ablative, "fortibus" )
+        ]
+    , Word "brave"
+        (Adjective Third Singular Neuter)
+        [ ( Nominative, "forte" )
+        , ( Genitive, "fortis" )
+        , ( Dative, "forti" )
+        , ( Accusative, "forte" )
+        , ( Ablative, "forti" )
+        ]
+    , Word "brave"
+        (Adjective Third Plural Neuter)
+        [ ( Nominative, "fortia" )
+        , ( Genitive, "fortium" )
+        , ( Dative, "fortibus" )
+        , ( Accusative, "fortia" )
+        , ( Ablative, "fortibus" )
+        ]
+    , Word "keen"
+        (Adjective Third Singular Masculine)
+        [ ( Nominative, "acer" )
+        , ( Genitive, "acris" )
+        , ( Dative, "acri" )
+        , ( Accusative, "acrem" )
+        , ( Ablative, "acri" )
+        ]
+    , Word "keen"
+        (Adjective Third Plural Masculine)
+        [ ( Nominative, "acres" )
+        , ( Genitive, "acrium" )
+        , ( Dative, "acribus" )
+        , ( Accusative, "acres" )
+        , ( Ablative, "acribus" )
+        ]
+    , Word "keen"
+        (Adjective Third Singular Feminine)
+        [ ( Nominative, "acris" )
+        , ( Genitive, "acris" )
+        , ( Dative, "acri" )
+        , ( Accusative, "acrem" )
+        , ( Ablative, "acri" )
+        ]
+    , Word "keen"
+        (Adjective Third Plural Feminine)
+        [ ( Nominative, "acres" )
+        , ( Genitive, "acrium" )
+        , ( Dative, "acribus" )
+        , ( Accusative, "acres" )
+        , ( Ablative, "acribus" )
+        ]
+    , Word "keen"
+        (Adjective Third Singular Neuter)
+        [ ( Nominative, "acre" )
+        , ( Genitive, "acris" )
+        , ( Dative, "acri" )
+        , ( Accusative, "acre" )
+        , ( Ablative, "acri" )
+        ]
+    , Word "keen"
+        (Adjective Third Plural Neuter)
+        [ ( Nominative, "acria" )
+        , ( Genitive, "acrium" )
+        , ( Dative, "acribus" )
+        , ( Accusative, "acria" )
+        , ( Ablative, "acribus" )
+        ]
+    , Word "powerful"
+        (Adjective Third Singular Masculine)
+        [ ( Nominative, "potens" )
+        , ( Genitive, "potentis" )
+        , ( Dative, "potenti" )
+        , ( Accusative, "potentem" )
+        , ( Ablative, "potenti" )
+        ]
+    , Word "powerful"
+        (Adjective Third Plural Masculine)
+        [ ( Nominative, "potentes" )
+        , ( Genitive, "potentium" )
+        , ( Dative, "potentibus" )
+        , ( Accusative, "potentes" )
+        , ( Ablative, "potentibus" )
+        ]
+    , Word "powerful"
+        (Adjective Third Singular Feminine)
+        [ ( Nominative, "potens" )
+        , ( Genitive, "potentis" )
+        , ( Dative, "potenti" )
+        , ( Accusative, "potentem" )
+        , ( Ablative, "potenti" )
+        ]
+    , Word "powerful"
+        (Adjective Third Plural Feminine)
+        [ ( Nominative, "potentes" )
+        , ( Genitive, "potentium" )
+        , ( Dative, "potentibus" )
+        , ( Accusative, "potentes" )
+        , ( Ablative, "potentibus" )
+        ]
+    , Word "powerful"
+        (Adjective Third Singular Neuter)
+        [ ( Nominative, "potens" )
+        , ( Genitive, "potentis" )
+        , ( Dative, "potenti" )
+        , ( Accusative, "potens" )
+        , ( Ablative, "potenti" )
+        ]
+    , Word "powerful"
+        (Adjective Third Plural Neuter)
+        [ ( Nominative, "potentia" )
+        , ( Genitive, "potentium" )
+        , ( Dative, "potentibus" )
+        , ( Accusative, "potentia" )
+        , ( Ablative, "potentibus" )
+        ]
+    , Word "braver"
+        (Adjective Third Singular Masculine)
+        [ ( Nominative, "fortior" )
+        , ( Genitive, "fortioris" )
+        , ( Dative, "fortiori" )
+        , ( Accusative, "fortiorem" )
+        , ( Ablative, "fortiore" )
+        ]
+    , Word "braver"
+        (Adjective Third Plural Masculine)
+        [ ( Nominative, "fortiores" )
+        , ( Genitive, "fortiorum" )
+        , ( Dative, "fortioribus" )
+        , ( Accusative, "fortiores" )
+        , ( Ablative, "fortioribus" )
+        ]
+    , Word "braver"
+        (Adjective Third Singular Feminine)
+        [ ( Nominative, "fortior" )
+        , ( Genitive, "fortioris" )
+        , ( Dative, "fortiori" )
+        , ( Accusative, "fortiorem" )
+        , ( Ablative, "fortiore" )
+        ]
+    , Word "braver"
+        (Adjective Third Plural Feminine)
+        [ ( Nominative, "fortiores" )
+        , ( Genitive, "fortiorum" )
+        , ( Dative, "fortioribus" )
+        , ( Accusative, "fortiores" )
+        , ( Ablative, "fortioribus" )
+        ]
+    , Word "braver"
+        (Adjective Third Singular Neuter)
+        [ ( Nominative, "fortius" )
+        , ( Genitive, "fortioris" )
+        , ( Dative, "fortiori" )
+        , ( Accusative, "fortius" )
+        , ( Ablative, "fortiore" )
+        ]
+    , Word "braver"
+        (Adjective Third Plural Neuter)
+        [ ( Nominative, "fortiora" )
+        , ( Genitive, "fortiorum" )
+        , ( Dative, "fortioribus" )
+        , ( Accusative, "fortiora" )
+        , ( Ablative, "fortioribus" )
+        ]
     ]
