@@ -1135,4 +1135,364 @@ allWords =
             , ( ( ThirdPerson, Plural ), "ceperint" )
             ]
         )
+    , Word "praise"
+        (Verb Indicative
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "laudor" )
+            , ( ( SecondPerson, Singular ), "laudaris" )
+            , ( ( ThirdPerson, Singular ), "laudatur" )
+            , ( ( FirstPerson, Plural ), "laudamur" )
+            , ( ( SecondPerson, Plural ), "laudamini" )
+            , ( ( ThirdPerson, Plural ), "laudantur" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "moneor" )
+            , ( ( SecondPerson, Singular ), "moneris" )
+            , ( ( ThirdPerson, Singular ), "monetur" )
+            , ( ( FirstPerson, Plural ), "monemur" )
+            , ( ( SecondPerson, Plural ), "monemini" )
+            , ( ( ThirdPerson, Plural ), "monentur" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "ducor" )
+            , ( ( SecondPerson, Singular ), "duceris" )
+            , ( ( ThirdPerson, Singular ), "ducitur" )
+            , ( ( FirstPerson, Plural ), "ducimur" )
+            , ( ( SecondPerson, Plural ), "ducimini" )
+            , ( ( ThirdPerson, Plural ), "ducuntur" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "audior" )
+            , ( ( SecondPerson, Singular ), "audiris" )
+            , ( ( ThirdPerson, Singular ), "auditur" )
+            , ( ( FirstPerson, Plural ), "audimur" )
+            , ( ( SecondPerson, Plural ), "audimini" )
+            , ( ( ThirdPerson, Plural ), "audiuntur" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "capior" )
+            , ( ( SecondPerson, Singular ), "caperis" )
+            , ( ( ThirdPerson, Singular ), "capitur" )
+            , ( ( FirstPerson, Plural ), "capimur" )
+            , ( ( SecondPerson, Plural ), "capimini" )
+            , ( ( ThirdPerson, Plural ), "capuintur" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Passive
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "laudabar" )
+            , ( ( SecondPerson, Singular ), "laudabaris" )
+            , ( ( ThirdPerson, Singular ), "laudabatur" )
+            , ( ( FirstPerson, Plural ), "laudabamur" )
+            , ( ( SecondPerson, Plural ), "laudabamini" )
+            , ( ( ThirdPerson, Plural ), "laudabantur" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Passive
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "moneor" )
+            , ( ( SecondPerson, Singular ), "moneris" )
+            , ( ( ThirdPerson, Singular ), "monetur" )
+            , ( ( FirstPerson, Plural ), "monemur" )
+            , ( ( SecondPerson, Plural ), "monemini" )
+            , ( ( ThirdPerson, Plural ), "monentur" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Passive
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "ducebar" )
+            , ( ( SecondPerson, Singular ), "ducebaris" )
+            , ( ( ThirdPerson, Singular ), "ducebatur" )
+            , ( ( FirstPerson, Plural ), "ducebamur" )
+            , ( ( SecondPerson, Plural ), "ducebamini" )
+            , ( ( ThirdPerson, Plural ), "ducebantur" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Passive
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "audiebar" )
+            , ( ( SecondPerson, Singular ), "audiebaris" )
+            , ( ( ThirdPerson, Singular ), "audiebatur" )
+            , ( ( FirstPerson, Plural ), "audiebamur" )
+            , ( ( SecondPerson, Plural ), "audiebamini" )
+            , ( ( ThirdPerson, Plural ), "audiebantur" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Passive
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "capiebar" )
+            , ( ( SecondPerson, Singular ), "capiebaris" )
+            , ( ( ThirdPerson, Singular ), "capiebatur" )
+            , ( ( FirstPerson, Plural ), "capiebamur" )
+            , ( ( SecondPerson, Plural ), "capiebamini" )
+            , ( ( ThirdPerson, Plural ), "capiebantur" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Passive
+            Future
+            [ ( ( FirstPerson, Singular ), "laudabor" )
+            , ( ( SecondPerson, Singular ), "laudaberis" )
+            , ( ( ThirdPerson, Singular ), "laudabitur" )
+            , ( ( FirstPerson, Plural ), "laudabimur" )
+            , ( ( SecondPerson, Plural ), "laudabimini" )
+            , ( ( ThirdPerson, Plural ), "laudabuntur" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Passive
+            Future
+            [ ( ( FirstPerson, Singular ), "monebor" )
+            , ( ( SecondPerson, Singular ), "moneberis" )
+            , ( ( ThirdPerson, Singular ), "monebitur" )
+            , ( ( FirstPerson, Plural ), "monebimur" )
+            , ( ( SecondPerson, Plural ), "monebimini" )
+            , ( ( ThirdPerson, Plural ), "monebuntur" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Passive
+            Future
+            [ ( ( FirstPerson, Singular ), "ducar" )
+            , ( ( SecondPerson, Singular ), "duceris" )
+            , ( ( ThirdPerson, Singular ), "ducetur" )
+            , ( ( FirstPerson, Plural ), "ducemur" )
+            , ( ( SecondPerson, Plural ), "ducemini" )
+            , ( ( ThirdPerson, Plural ), "ducentur" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Passive
+            Future
+            [ ( ( FirstPerson, Singular ), "audiar" )
+            , ( ( SecondPerson, Singular ), "audieris" )
+            , ( ( ThirdPerson, Singular ), "audietur" )
+            , ( ( FirstPerson, Plural ), "audiemur" )
+            , ( ( SecondPerson, Plural ), "audiemini" )
+            , ( ( ThirdPerson, Plural ), "audientur" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Passive
+            Future
+            [ ( ( FirstPerson, Singular ), "capiar" )
+            , ( ( SecondPerson, Singular ), "capieris" )
+            , ( ( ThirdPerson, Singular ), "capietur" )
+            , ( ( FirstPerson, Plural ), "capiemur" )
+            , ( ( SecondPerson, Plural ), "capiemini" )
+            , ( ( ThirdPerson, Plural ), "capientur" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Passive
+            Perfect
+            [ ( ( FirstPerson, Singular ), "laudatus sum" )
+            , ( ( SecondPerson, Singular ), "laudatus es" )
+            , ( ( ThirdPerson, Singular ), "laudatus est" )
+            , ( ( FirstPerson, Plural ), "laudati sumus" )
+            , ( ( SecondPerson, Plural ), "laudati estis" )
+            , ( ( ThirdPerson, Plural ), "laudati sunt" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Passive
+            Perfect
+            [ ( ( FirstPerson, Singular ), "monitus sum" )
+            , ( ( SecondPerson, Singular ), "monitus es" )
+            , ( ( ThirdPerson, Singular ), "monitus est" )
+            , ( ( FirstPerson, Plural ), "moniti sumus" )
+            , ( ( SecondPerson, Plural ), "moniti estis" )
+            , ( ( ThirdPerson, Plural ), "monitis sunt" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Passive
+            Perfect
+            [ ( ( FirstPerson, Singular ), "ductus sum" )
+            , ( ( SecondPerson, Singular ), "ductus es" )
+            , ( ( ThirdPerson, Singular ), "ductus est" )
+            , ( ( FirstPerson, Plural ), "ducti sumus" )
+            , ( ( SecondPerson, Plural ), "ducti estis" )
+            , ( ( ThirdPerson, Plural ), "ducti sunt" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Passive
+            Perfect
+            [ ( ( FirstPerson, Singular ), "auditus sum" )
+            , ( ( SecondPerson, Singular ), "auditus es" )
+            , ( ( ThirdPerson, Singular ), "auditus est" )
+            , ( ( FirstPerson, Plural ), "auditi sumus" )
+            , ( ( SecondPerson, Plural ), "auditi estis" )
+            , ( ( ThirdPerson, Plural ), "auditi sunt" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Passive
+            Perfect
+            [ ( ( FirstPerson, Singular ), "captus sum" )
+            , ( ( SecondPerson, Singular ), "captus es" )
+            , ( ( ThirdPerson, Singular ), "captus est" )
+            , ( ( FirstPerson, Plural ), "capti sumus" )
+            , ( ( SecondPerson, Plural ), "capti estis" )
+            , ( ( ThirdPerson, Plural ), "capti sunt" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Passive
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "laudatus eram" )
+            , ( ( SecondPerson, Singular ), "laudatus eras" )
+            , ( ( ThirdPerson, Singular ), "laudatus erat" )
+            , ( ( FirstPerson, Plural ), "laudati eramus" )
+            , ( ( SecondPerson, Plural ), "laudati eratis" )
+            , ( ( ThirdPerson, Plural ), "laudati erant" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Passive
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "monitus eram" )
+            , ( ( SecondPerson, Singular ), "monitus eras" )
+            , ( ( ThirdPerson, Singular ), "monitus erat" )
+            , ( ( FirstPerson, Plural ), "moniti eramus" )
+            , ( ( SecondPerson, Plural ), "moniti eratis" )
+            , ( ( ThirdPerson, Plural ), "moniti erant" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Passive
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "ductus eram" )
+            , ( ( SecondPerson, Singular ), "ductus eras" )
+            , ( ( ThirdPerson, Singular ), "ductus erat" )
+            , ( ( FirstPerson, Plural ), "ducti eramus" )
+            , ( ( SecondPerson, Plural ), "ducti eratis" )
+            , ( ( ThirdPerson, Plural ), "ducti erant" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Passive
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "auditus eram" )
+            , ( ( SecondPerson, Singular ), "auditus eras" )
+            , ( ( ThirdPerson, Singular ), "auditus erat" )
+            , ( ( FirstPerson, Plural ), "auditi eramus" )
+            , ( ( SecondPerson, Plural ), "auditi eratis" )
+            , ( ( ThirdPerson, Plural ), "auditi erant" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Passive
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "captus eram" )
+            , ( ( SecondPerson, Singular ), "captus eras" )
+            , ( ( ThirdPerson, Singular ), "captus erat" )
+            , ( ( FirstPerson, Plural ), "capti eramus" )
+            , ( ( SecondPerson, Plural ), "capti eratis" )
+            , ( ( ThirdPerson, Plural ), "capti erant" )
+            ]
+        )
+    , Word "praise"
+        (Verb Indicative
+            Passive
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "laudatus ero" )
+            , ( ( SecondPerson, Singular ), "laudatus eris" )
+            , ( ( ThirdPerson, Singular ), "laudatus erit" )
+            , ( ( FirstPerson, Plural ), "laudati erimus" )
+            , ( ( SecondPerson, Plural ), "laudati eritis" )
+            , ( ( ThirdPerson, Plural ), "laudati erunt" )
+            ]
+        )
+    , Word "remind"
+        (Verb Indicative
+            Passive
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "monitus ero" )
+            , ( ( SecondPerson, Singular ), "monitus eris" )
+            , ( ( ThirdPerson, Singular ), "monitus erit" )
+            , ( ( FirstPerson, Plural ), "moniti erimus" )
+            , ( ( SecondPerson, Plural ), "moniti eritis" )
+            , ( ( ThirdPerson, Plural ), "moniti erunt" )
+            ]
+        )
+    , Word "lead"
+        (Verb Indicative
+            Passive
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "ductus ero" )
+            , ( ( SecondPerson, Singular ), "ductus eris" )
+            , ( ( ThirdPerson, Singular ), "ductus erit" )
+            , ( ( FirstPerson, Plural ), "ducti erimus" )
+            , ( ( SecondPerson, Plural ), "ducti eritis" )
+            , ( ( ThirdPerson, Plural ), "ducti erunt" )
+            ]
+        )
+    , Word "hear"
+        (Verb Indicative
+            Passive
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "auditus ero" )
+            , ( ( SecondPerson, Singular ), "auditus eris" )
+            , ( ( ThirdPerson, Singular ), "auditus erit" )
+            , ( ( FirstPerson, Plural ), "auditi erimus" )
+            , ( ( SecondPerson, Plural ), "auditi eritis" )
+            , ( ( ThirdPerson, Plural ), "auditi erunt" )
+            ]
+        )
+    , Word "take"
+        (Verb Indicative
+            Passive
+            FuturePerfect
+            [ ( ( FirstPerson, Singular ), "captus ero" )
+            , ( ( SecondPerson, Singular ), "captus eris" )
+            , ( ( ThirdPerson, Singular ), "captus erit" )
+            , ( ( FirstPerson, Plural ), "capti erimus" )
+            , ( ( SecondPerson, Plural ), "capti eritis" )
+            , ( ( ThirdPerson, Plural ), "capti erunt" )
+            ]
+        )
     ]
