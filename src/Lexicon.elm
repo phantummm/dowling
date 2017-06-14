@@ -1495,4 +1495,64 @@ allWords =
             , ( ( ThirdPerson, Plural ), "capti erunt" )
             ]
         )
+    , Word "praise"
+        (Verb Subjunctive
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "laudem" )
+            , ( ( SecondPerson, Singular ), "laudes" )
+            , ( ( ThirdPerson, Singular ), "laudet" )
+            , ( ( FirstPerson, Plural ), "laudemus" )
+            , ( ( SecondPerson, Plural ), "laudetis" )
+            , ( ( ThirdPerson, Plural ), "laudent" )
+            ]
+        )
+    , Word "remind"
+        (Verb Subjunctive
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "moneam" )
+            , ( ( SecondPerson, Singular ), "moneas" )
+            , ( ( ThirdPerson, Singular ), "moneat" )
+            , ( ( FirstPerson, Plural ), "moneamus" )
+            , ( ( SecondPerson, Plural ), "moneatis" )
+            , ( ( ThirdPerson, Plural ), "moneant" )
+            ]
+        )
+    , Word "lead"
+        (Verb Subjunctive
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "ducam" )
+            , ( ( SecondPerson, Singular ), "ducas" )
+            , ( ( ThirdPerson, Singular ), "ducat" )
+            , ( ( FirstPerson, Plural ), "ducamus" )
+            , ( ( SecondPerson, Plural ), "ducatis" )
+            , ( ( ThirdPerson, Plural ), "ducant" )
+            ]
+        )
+    , Word "hear"
+        (Verb Subjunctive
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "audiam" )
+            , ( ( SecondPerson, Singular ), "audias" )
+            , ( ( ThirdPerson, Singular ), "audiat" )
+            , ( ( FirstPerson, Plural ), "audiamus" )
+            , ( ( SecondPerson, Plural ), "audiatis" )
+            , ( ( ThirdPerson, Plural ), "audiant" )
+            ]
+        )
+    , Word "take"
+        (Verb Subjunctive
+            Active
+            Present
+            [ ( ( FirstPerson, Singular ), "capiam" )
+            , ( ( SecondPerson, Singular ), "capias" )
+            , ( ( ThirdPerson, Singular ), "capiat" )
+            , ( ( FirstPerson, Plural ), "capiamus" )
+            , ( ( SecondPerson, Plural ), "capiatis" )
+            , ( ( ThirdPerson, Plural ), "capiant" )
+            ]
+        )
     ]
