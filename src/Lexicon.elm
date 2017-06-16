@@ -1555,4 +1555,124 @@ allWords =
             , ( ( ThirdPerson, Plural ), "capiant" )
             ]
         )
+    , Word "praise"
+        (Verb Subjunctive
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "laudarem" )
+            , ( ( SecondPerson, Singular ), "laudares" )
+            , ( ( ThirdPerson, Singular ), "laudaret" )
+            , ( ( FirstPerson, Plural ), "laudaremus" )
+            , ( ( SecondPerson, Plural ), "laudaretis" )
+            , ( ( ThirdPerson, Plural ), "laudarent" )
+            ]
+        )
+    , Word "remind"
+        (Verb Subjunctive
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "monerem" )
+            , ( ( SecondPerson, Singular ), "moneres" )
+            , ( ( ThirdPerson, Singular ), "moneret" )
+            , ( ( FirstPerson, Plural ), "moneremus" )
+            , ( ( SecondPerson, Plural ), "moneretis" )
+            , ( ( ThirdPerson, Plural ), "monerent" )
+            ]
+        )
+    , Word "lead"
+        (Verb Subjunctive
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "ducerem" )
+            , ( ( SecondPerson, Singular ), "duceres" )
+            , ( ( ThirdPerson, Singular ), "duceret" )
+            , ( ( FirstPerson, Plural ), "duceremus" )
+            , ( ( SecondPerson, Plural ), "duceretis" )
+            , ( ( ThirdPerson, Plural ), "ducerent" )
+            ]
+        )
+    , Word "hear"
+        (Verb Subjunctive
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "audirem" )
+            , ( ( SecondPerson, Singular ), "audires" )
+            , ( ( ThirdPerson, Singular ), "audiret" )
+            , ( ( FirstPerson, Plural ), "audiremus" )
+            , ( ( SecondPerson, Plural ), "audiretis" )
+            , ( ( ThirdPerson, Plural ), "audirent" )
+            ]
+        )
+    , Word "take"
+        (Verb Subjunctive
+            Active
+            Imperfect
+            [ ( ( FirstPerson, Singular ), "caperem" )
+            , ( ( SecondPerson, Singular ), "caperes" )
+            , ( ( ThirdPerson, Singular ), "caperet" )
+            , ( ( FirstPerson, Plural ), "caperemus" )
+            , ( ( SecondPerson, Plural ), "caperetis" )
+            , ( ( ThirdPerson, Plural ), "caperent" )
+            ]
+        )
+    , Word "praise"
+        (Verb Subjunctive
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "laudavissem" )
+            , ( ( SecondPerson, Singular ), "laudavisses" )
+            , ( ( ThirdPerson, Singular ), "laudavisset" )
+            , ( ( FirstPerson, Plural ), "laudavissemus" )
+            , ( ( SecondPerson, Plural ), "laudavissetis" )
+            , ( ( ThirdPerson, Plural ), "laudavissent" )
+            ]
+        )
+    , Word "remind"
+        (Verb Subjunctive
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "monuissem" )
+            , ( ( SecondPerson, Singular ), "monuisses" )
+            , ( ( ThirdPerson, Singular ), "monuisset" )
+            , ( ( FirstPerson, Plural ), "monuissemus" )
+            , ( ( SecondPerson, Plural ), "monuissetis" )
+            , ( ( ThirdPerson, Plural ), "monuissent" )
+            ]
+        )
+    , Word "lead"
+        (Verb Subjunctive
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "duxissem" )
+            , ( ( SecondPerson, Singular ), "duxisses" )
+            , ( ( ThirdPerson, Singular ), "duxisset" )
+            , ( ( FirstPerson, Plural ), "duxissemus" )
+            , ( ( SecondPerson, Plural ), "duxissetis" )
+            , ( ( ThirdPerson, Plural ), "duxissent" )
+            ]
+        )
+    , Word "hear"
+        (Verb Subjunctive
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "audivissem" )
+            , ( ( SecondPerson, Singular ), "audivisses" )
+            , ( ( ThirdPerson, Singular ), "audivisset" )
+            , ( ( FirstPerson, Plural ), "audivissemus" )
+            , ( ( SecondPerson, Plural ), "audivissetis" )
+            , ( ( ThirdPerson, Plural ), "audivissent" )
+            ]
+        )
+    , Word "take"
+        (Verb Subjunctive
+            Active
+            Pluperfect
+            [ ( ( FirstPerson, Singular ), "cepissem" )
+            , ( ( SecondPerson, Singular ), "cepisses" )
+            , ( ( ThirdPerson, Singular ), "cepisset" )
+            , ( ( FirstPerson, Plural ), "cepissemus" )
+            , ( ( SecondPerson, Plural ), "cepissetis" )
+            , ( ( ThirdPerson, Plural ), "cepissent" )
+            ]
+        )
     ]
