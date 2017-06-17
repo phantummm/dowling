@@ -1675,4 +1675,64 @@ allWords =
             , ( ( ThirdPerson, Plural ), "cepissent" )
             ]
         )
+    , Word "praise"
+        (Verb Subjunctive
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "lauder" )
+            , ( ( SecondPerson, Singular ), "lauderis" )
+            , ( ( ThirdPerson, Singular ), "laudetur" )
+            , ( ( FirstPerson, Plural ), "laudemur" )
+            , ( ( SecondPerson, Plural ), "laudemini" )
+            , ( ( ThirdPerson, Plural ), "laudentur" )
+            ]
+        )
+    , Word "remind"
+        (Verb Subjunctive
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "monear" )
+            , ( ( SecondPerson, Singular ), "monearis" )
+            , ( ( ThirdPerson, Singular ), "moneatur" )
+            , ( ( FirstPerson, Plural ), "moneamur" )
+            , ( ( SecondPerson, Plural ), "moneamini" )
+            , ( ( ThirdPerson, Plural ), "moneantur" )
+            ]
+        )
+    , Word "lead"
+        (Verb Subjunctive
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "ducar" )
+            , ( ( SecondPerson, Singular ), "ducaris" )
+            , ( ( ThirdPerson, Singular ), "ducatur" )
+            , ( ( FirstPerson, Plural ), "ducamur" )
+            , ( ( SecondPerson, Plural ), "ducamini" )
+            , ( ( ThirdPerson, Plural ), "ducantur" )
+            ]
+        )
+    , Word "hear"
+        (Verb Subjunctive
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "audiar" )
+            , ( ( SecondPerson, Singular ), "audiaris" )
+            , ( ( ThirdPerson, Singular ), "audiatur" )
+            , ( ( FirstPerson, Plural ), "audiamur" )
+            , ( ( SecondPerson, Plural ), "audiamini" )
+            , ( ( ThirdPerson, Plural ), "audiantur" )
+            ]
+        )
+    , Word "take"
+        (Verb Subjunctive
+            Passive
+            Present
+            [ ( ( FirstPerson, Singular ), "capiar" )
+            , ( ( SecondPerson, Singular ), "capiaris" )
+            , ( ( ThirdPerson, Singular ), "capiatur" )
+            , ( ( FirstPerson, Plural ), "capiamur" )
+            , ( ( SecondPerson, Plural ), "capiamini" )
+            , ( ( ThirdPerson, Plural ), "capiantur" )
+            ]
+        )
     ]
